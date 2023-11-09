@@ -1,0 +1,175 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.tablet-images{
+    height: 260px;
+    width: 180px;
+    margin: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.title{
+    font-size: 30px;
+    color: antiquewhite;
+}
+.cards-container{
+    text-align: center;
+    background-color: aliceblue;
+    height: 510px;
+    width: 300px;
+    box-shadow: 2px 2px 3px 3px rgb(232, 226, 232);
+    margin: 0px;
+    margin-left: 5px;
+}
+.cards-container:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 20px;
+    transform: translateY(20px);
+}
+.description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2px;
+    padding: 5px;
+    font-weight: bold;
+}
+.description-1{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.lifestylecardcontainer{
+    height: 530px;
+    width: 400px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+    margin-top: 50px;
+}
+.lifestyle-image-card{
+    height: 320px;
+    margin-left: 30px;
+}
+.lifestyle-card-title{
+    font-size: 25px;
+    text-align: center;
+}
+.lifestyle-card-dec{
+    font-size: 16px;
+    text-align: center;
+}
+.lifestyle-card-btnn{
+    padding: 5px 18px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 150px;
+}
+.lifestyle-card-offer{
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    background-color: rgb(242, 192, 229);
+    padding: 1px 10px;
+    font-size: 13px;
+    border: 2px solid rgb(249, 6, 184);
+    border-radius: 4px;
+}
+.audiocardcontainer{
+    height: 390px;
+    width: 310px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top: 50px;
+}
+.lifestyle-image-card-audio{
+    height: 250px;
+    margin-left: 20px;
+}
+.lifestyle-audio-title{
+    font-size: 25px;
+    text-align: center;
+}
+.lifestyle-audio-price{
+    font-size: 20px;
+    text-align: center;
+}
+.lifestyle-audio-btnn{
+    padding: 5px 18px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 95px;
+}
+.btn41-43 {
+    padding: 5px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display:block;
+    width: 109px;
+    height: 35px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 0px auto;
+    background: #000;
+  }
+  
+  .btn-42 {
+    border: 2px solid rgb(10, 0, 0);
+    z-index: 1;
+    color:#fff;
+    text-decoration: none;
+  }
+  
+  .btn-42:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: hwb(150 84% 9%);
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .btn-42:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .btn-42:hover:after {
+    top: 0;
+    height: 100%;
+    text-decoration: none;
+  }
+  
+  .btn-42:active {
+    top: 2px;
+    text-decoration: none;
+  }
+.Small-Button{
+    top: 12px;
+    left: 13px;
+    background-color: rgb(242, 192, 229);
+    padding: 1px 10px;
+    font-size: 12px;
+    border: 2px solid rgb(249, 6, 184);
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.btn-top{
+    margin-top: 10px;
+}

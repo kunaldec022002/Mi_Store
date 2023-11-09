@@ -1,0 +1,63 @@
+.body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.containerforlogin{
+  display:inline-block;
+  background-color: rgba(245, 245, 220, 0.685);
+  position: relative ;
+  margin-left:450px;
+  margin-top: 150px;
+  width: 476px;
+  border-radius: 10px;
+  border: 1px solid black;
+ margin-bottom: 50px;
+}
+.titles {
+  text-align: center;
+  padding-top: 5px;
+  width: 30vw;
+  height: 50px;
+  padding: 2vw 1vw;
+  border-radius: 10px 10px 0 0;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0%;
+}
+
+.Apps {
+  text-align: center;
+  display: flex;
+
+  margin: 0;
+  width: 30vw;
+  padding: 2vw 1vw;
+  border-radius: 0 0 10px 10px;
+}
+
+.inputs {
+  text-align: center;
+  border: 1px solid rgb(172, 171, 171);
+  border-radius: 10px;
+  padding: 1vw 20px;
+  outline: none;
+  margin: 5px;
+  width: 435px;
+  height: 5opx;
+  font-size: medium;
+  margin-left: 20px;
+
+}
+
+.buttons{
+  margin-left: 165px;
+  width: 110px;
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+  color: white;
+  margin-bottom: 17px;
+}

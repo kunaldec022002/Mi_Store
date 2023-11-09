@@ -1,0 +1,50 @@
+body{
+    
+    background-color:white;
+
+}
+.button{
+    height: 50px;
+    width: 200px;
+    background-color:black;
+    border-radius: 12px;
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+    padding: 13px;
+    padding-left: 70px;
+    margin-right: 0px;
+    color: white;
+    margin-left: -50px;
+}
+
+.signup-container-1{
+    background-color: rgba(245, 245, 220, 0.685);
+    margin-top: 150px;
+    height: 450px;
+    border-radius:  10px 10px  0 80px ;
+    border: 1px solid black;
+    margin-bottom: 50px;
+
+}
+.confirm-password{
+    display: block;
+
+}
+
+    .titl{
+        text-align: center;
+        padding-top: -5px;
+        width: 30vw;
+        height: 50px;
+        border-radius: 0;
+        font-size: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0%;
+        color: black;
+      }
+
+      .inputfield{
+        margin-left: -110px;
+      }
+

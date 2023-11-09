@@ -1,0 +1,79 @@
+
+.tv-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.heading{
+    text-align: center;
+    font-size:50px;
+    margin: 30px auto;
+}
+.banner-heading{
+   background-image: url("./img/img4.jpg"); 
+   background-size: cover;
+   height: 60vh;
+   margin-top: 40px;
+   font-size: 50px;
+   color: white;
+   padding-left: 40px;
+   padding-top: 150px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para-text{
+    text-align: center;
+    font-size: 20px;
+    color: #0f1532;
+}
+.containerforimgtext{
+    display: flex;
+   
+    margin-top: 70px;
+}
+.textcontainertv{
+    display:block;
+    display: grid;
+    place-content: center;
+    margin-right: -70px;
+   margin-left: 80px;
+}
+.para-text1{
+    text-align: left;
+    font-size: 20px;
+    color:#0f1532;
+    
+    
+}
+.smarttvimg{
+   width: 50%; 
+   height: 50%;
+   margin-left: 250px;
+   
+}
+.banner-heading1{
+    background-image: url('./img/bannerheading1.webp');
+    background-size: cover;
+   height: 60vh;
+   width: 50%;
+   margin-top: 40px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 50px;
+   font-size: 50px;
+   color: white;
+ }
+ .heading-6{
+    background-color: rgb(138, 135, 135);
+    width: 200px;
+    margin-left: 10px;
+    padding: 3px 5px;
+    float: left;
+ }
+ .headingg-6{
+    background-color: rgb(138, 135, 135); 
+    width: 250px;
+    
+    float: right;
+    
+ }

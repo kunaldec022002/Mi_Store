@@ -1,0 +1,22 @@
+.container-tablets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.main-title{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+}
+.main-img{
+    min-width: 225vh;
+    height: 500px;
+
+}
+.MiddleImage{
+    height: 550px;
+    width: 100%;
+}

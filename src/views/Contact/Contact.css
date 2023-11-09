@@ -1,0 +1,103 @@
+form {
+    max-width: 400px;
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+    margin-left: 200px;
+  }
+  .heading{
+    font-size: 50px; 
+    margin-left: 150px;
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .email{
+    background-color: white;
+    color: black;
+    width:480px;
+    border-radius: 2px;
+    padding: 6px ;
+    margin-left: 0;
+    margin-bottom: 5px;
+      }
+
+  input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .text{
+    width: 450px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 0px;
+  }
+  
+  .btn-2 {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 130px;
+  }
+  
+ 
+  .speech{
+    width: 1200px;
+    font-size: 20px;
+    margin-left: 150px;
+  }
+  .support{
+    background-color: black;
+    color: white;
+    padding:  10px;
+    border: none;
+    border-radius: 4px;
+    margin:6px;
+    cursor: pointer;
+  }
+ 
+  .form-control{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .form-control label{
+    position: absolute;
+    top: -11px;
+    left: 24px;
+    background-color: white;
+    padding: 0 10px;
+  }
+  .Container{
+    display: flex;
+    margin: 0;
+  }
+  .imgofcontact{
+   height: 500px;
+   margin-left: 150px;
+  }
+  .massage{
+    width: 300px;
+    margin-left: 160px;
+  }
