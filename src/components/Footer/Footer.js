@@ -37,7 +37,7 @@ function Footer()
    </div>
    <div class="footer-contact">
        <h3>Contact Us</h3>
-        <p><Link to="/contact" className="quick-link">Contact</Link></p>
+     <p><Link to="/contact" className="quick-link">Contact</Link></p>
     
    </div>
    <div class="footer-follow">

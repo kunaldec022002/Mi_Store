@@ -8,53 +8,45 @@ export default function Navbar()
     return(
 
         <>
-
-                    <nav className="navbar navbar-expand-lg">
-                    <div className="container-fluid">
-                    <Link className="navbar-brand" to="/"><img className="home-brand-img" src={NavImg}/></Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarScroll">
-                        <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
-
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/">Home</Link>
-                        </li>    
-                       
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/smartphone">Smartphones</Link>
-                        </li>
-
-
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/tv">Smart TV's</Link>
-                        </li>
-                       
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/laptop">Tablets&Laptop</Link>
-                        </li>
-
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/contact">Contact</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="lifestyle">LifeStyle</Link>
-                        </li> 
-
-        
-                
-                        
-                        </ul>
-
                     
-                        
-                        <Link to="/login"><button className="bn632-hover bn27">Login</button></Link>
-                        <Link to="/signup"><button className="bn636-hover bn22">Signin</button></Link>
-                        
-                    </div>
-                    </div>
-                </nav>
+
+                    <nav class="navbar navbar-expand-lg" id="nav-container">
+            <div class="container-fluid">
+              <img src={NavImg} className="brand-img"/>
+              <Link to="/fitclub" class="navbar-brand">XIAOMI</Link>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse link-container" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" >
+
+                  <li class="nav-item">
+                    <Link to="/" class="nav-link active" aria-current="page">Home</Link>
+                  </li>
+                  <li class="nav-item">
+                    <Link to="/laptop" class="nav-link">Laptop</Link>
+                  </li>
+                  <li class="nav-item">
+                    <Link to="/lifestyle" class="nav-link">Lifestyle</Link>
+                  </li>
+                  <li class="nav-item">
+                    <Link to="/smartphone" class="nav-link">Smartphone</Link>
+                  </li>
+                  <li class="nav-item">
+                    <Link to="/tv" class="nav-link">TV</Link>
+                  </li>
+                  <li class="nav-item">
+                    <Link to="/contact" class="nav-link">Contact</Link>
+                  </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                  <Link to="/signup" className="btn signup">Signup</Link>
+                  <Link to="/login" className="btn login">login</Link>
+                </form>
+              </div>
+            </div>
+        </nav>
 
                 
         </>

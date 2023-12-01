@@ -1,144 +1,30 @@
-.navbar
+#nav-container
 {
-  background-color:#8FBB;
-}
-.home-brand-img
-{
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-right: 450px;
-    height: 50px;
-    width: 60px;
-    border-radius: 10px;
+  background:#8FBB;
 }
 
-.home-brand-img:hover
+.navbar-brand
 {
-  height: 51px;
-  width: 61px;
+    font-family: fantasy;
+    margin-left: 5px;
 }
 
-.nav-btn
+.btn 
 {
-  flex-wrap: wrap;
+    margin: 7px;
+    color: #000000;
+    font-size: 20px;
+    border: 1px solid black;
 }
 
-.nav-menu
-{
-  font-size: 20px;
-  margin: 10px;
-  color: #fff;
-  text-decoration: none;
-  margin-left: 5px;
-
-}
 .nav-link
 {
- margin-right: 5px;
- font-size: 15px;
- color: #000000;
-}
-
-
-.search-box
-{
     font-size: 20px;
-    text-align: center;
-    border-radius: 5px;
-    padding: 5px;
-
+    margin: 5px;
 }
 
-/* Login button*/
-
-.bn632-hover {
-    width: 100px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #000000;
-    cursor: pointer;
-    margin: 20px;
-    height: 35px;
-    text-align:center;
-    border: 1px solid black;
-    background-size: 300% 100%;
-    border-radius: 10px;
-
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-  }
-  
-  .bn632-hover:hover {
-    background-position: 100% 0;
-
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-  }
-  
-  .bn632-hover:focus {
-    outline: none;
-  }
-  
-  .bn632-hover.bn27 {
-    background-image: linear-gradient(
-      to right,
-      #ed6ea0,
-      #ec8c69,
-      #f7186a,
-      #fbb03b
-    );
-    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
-  }
-
-  /* button 2 */
-
-  .bn636-hover {
-    padding: 5px;
-    width: 100px;
-    font-size: 16px;
-    font-weight: 400;
-    color: black;
-    cursor: pointer;
-    margin: 20px;
-    height: 35px;
-    text-align:center;
-    border: 1px solid black;
-    background-size: 300% 100%;
-    border-radius: 10px;
-   
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-  }
-  
-  .bn636-hover:hover {
-    background-position: 100% 0;
-   
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-  }
-  
-  .bn636-hover:focus {
-    outline: none;
-  }
-  
-  .bn636-hover.bn22 {
-    background-image: linear-gradient(
-      to right,
-      #0ba360,
-      #3cba92,
-      #30dd8a,
-      #2bb673
-    );
-    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
-  }
-
-  .form-control
-  {
-    width: 300px;
-    border: 2px solid black;
-  }
-  
+.brand-img
+{
+    height: 45px;
+    width: 60px;
+}
