@@ -5,13 +5,14 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Home from "./views/Home/Home"
 import Contact from "./views/Contact/Contact"
 import Laptop from "./views/Laptop/Laptop"
-
+import Signup from "./views/Signup/Signup"
 import Smartphone from "./views/Smartphone/Smartphone"
 import Tv from "./views/Tv/Tv"
 import Lifestyle from './views/Lifestyle/Lifestyle';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import ShowDetails from './views/ShowDetails/ShowDetails'
+import Login from './views/Login/Login';
 
 
 const router = createBrowserRouter([
@@ -28,8 +29,6 @@ const router = createBrowserRouter([
       element: <Laptop />,
     },
    
-    
-  
       {
         path: "/smartphone",
         element: <Smartphone />,
@@ -37,6 +36,16 @@ const router = createBrowserRouter([
       {
         path: "/tv",
         element: <Tv />,
+      },
+
+      {
+        path:"/login" ,
+        element:<Login/>
+      },
+
+      {
+        path:"/signup",
+        element:<Signup/>
       },
       {
         path: "/lifestyle",

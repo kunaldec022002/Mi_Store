@@ -20,12 +20,7 @@
     position: relative;
     background-color: aliceblue;
 }
-.card-container:hover{
-    cursor: pointer;
-    transition: 0.3s;
-    border-radius: 20px;
-    transform: translateY(20px);
-}
+
 .name-text{
     font-size: 25px;
     font-family: 'Verdana, Geneva, Tahoma, sans-serif';

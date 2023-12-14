@@ -28,16 +28,11 @@
 }
 .containerforimgtext{
     display: flex;
-   
-    margin-top: 70px;
+    padding: 40px;
+    justify-content: space-between;
 }
-.textcontainertv{
-    display:block;
-    display: grid;
-    place-content: center;
-    margin-right: -70px;
-   margin-left: 80px;
-}
+
+
 .para-text1{
     text-align: left;
     font-size: 20px;
@@ -48,7 +43,7 @@
 .smarttvimg{
    width: 50%; 
    height: 50%;
-   margin-left: 250px;
+   
    
 }
 .banner-heading1{

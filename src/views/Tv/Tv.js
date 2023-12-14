@@ -76,7 +76,7 @@ function Tv(){
       <div>
         <h2 className="heading">Premium Metal Bezel-less Design</h2>
         <p className="para-text">Your entertainment now knows no limits with fullscreen viewing encased<br/> in a gorgeous metal frame.</p>
-        <img src={Smarttv} className="img-fluid mx-auto d-block" alt="..."/>
+        <img src={Smarttv} className="smarttvimg" alt="..."/>
       </div>
       <div className="containerforimgtext">
        <div className="textcontainertv">

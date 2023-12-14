@@ -1,115 +1,44 @@
-#footer
+.footer-container
 {
-    background:#8FBB;
-    color: #fff;
-}
-
-.footer-box
-{
-    
-    padding: 20px;
-    color: black;
-}
-.footer-box img
-{
-    width: 60px;
-    margin-top: 10px;
-}
-
- .footer-box .direction
-{
- margin-right: 8px;
- font-size: 25px;
- height: 30px;
- width:30px;
- text-align: center;
- }
-
- .form-control
- {
-    margin-left: 200px;
-    border:1px solid black;
-    border-radius: 10px;
-    margin-top: 25px;
-    max-width: 250px;
-    width: 450px;
-    
- }
-
- .footer-box .btn-primary
- {
-    box-shadow: none !important;
-    border: none;
-    border-radius: 7px;
-    margin-top: 30px;
-    background-color:#7b1798;
- }
-
- hr
- {
-    background-color: #fff;
-    height: 5px;
- }
-
-.copyright
-{
-    margin-bottom: 0;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.footer-quick-link
-{
-    color:black;
-    text-decoration: none;
-}
-.banner-content
-{
-    font-size: 20px;
-    text-align: center;
-}
-
-input,button
-{
-    margin-left: 170px;
-}
-
-.Faq-text
-{
-    color: black;
-   margin-left: 220px;
-}
-#submit-btn
-{
-    margin-left: 200px;
-}
-
-/* footer section*/
-
-.contact-input
-{
-    width: 200px;
-}
-
-.footer-main {
-    display:flex;
-    justify-content: space-evenly;
-    background-color:#8FBB ;
-    color: black;
+    background-color: #fa359f;
+    display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-   
-    padding: 20px;
- }
+    padding: 5px;
+    margin-top: 20px;
 
- .quick-link
- {
-    color: black;
+}
+
+.quick-link
+{
     text-decoration: none;
- }
- 
- @media (max-width: 600px) {
-    .footer-about, .footer-services, .footer-contact, .footer-follow {
-        width: 100%;
-        margin-bottom: 20px;
-    }
- }
+    color: black;
+  
+}
+
+.footer-club-img
+{
+    margin: 30px auto;
+    height: 170px;
+    width: 170px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px 2px black;
+}
+
+
+.footer-icons
+{
+    
+    width: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px 2px black;
+}
+
+.footer-icons:hover
+{
+    transform: translate(2px);
+}
+
+
+

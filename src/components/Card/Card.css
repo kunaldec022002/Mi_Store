@@ -23,12 +23,7 @@ body{
     margin: 0px;
     margin-left: 5px;
 }
-.cards-container:hover{
-    cursor: pointer;
-    transition: 0.3s;
-    border-radius: 20px;
-    transform: translateY(20px);
-}
+
 .description{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 2px;

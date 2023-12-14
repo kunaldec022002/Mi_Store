@@ -1,59 +1,55 @@
-import "./Footer.css"
-import { Link } from 'react-router-dom'
-import showToast from 'crunchy-toast'
-import MapImg from "../../views/Home/img/ICON/google-maps.png"
-import GmailImg from "../../views/Home/img/ICON/gmail (1).png"
-import ContactImg from "../../views/Home/img/ICON/telephone-call.png"
+import React from "react";
+import {Link} from "react-router-dom"
+import './Footer.css';
+import MIImg from './icon/xiaomi.png';
+import GitHub from './icon/github-sign.png';
+import Gmail from './icon/gmail (1).png'
+import Google from './icon/google-maps.png';
+import Insta from './icon/instagram (3).png'
 
+function Footer(){
+    return(
+        <div>
+            <div className="footer-container">
+                <div>
+                    <h3>MI_STORE</h3>
+                    <div>
+                        <img src={MIImg} className="footer-club-img"/>
+                    </div>
+                </div>
 
-function footerContact()
-{
-   showToast('Thanku For Contacting Us🙏','success', 3000);
-}
-function Footer()
-{
-  
-  return(
+                <div>
+                    <h3>Quick Links</h3>
+                    <p><Link to="/tv" className="quick-link">TV</Link></p>
+                    <p><Link to="/contact"  className="quick-link">Contact</Link></p>
+                    <p><Link to="/laptop"  className="quick-link">Laptop</Link></p>
+                    <p><Link to="/smartphone"  className="quick-link">Smartphone</Link></p>
+                    <p><Link to="/signup"  className="quick-link">Signup</Link></p>
+                    <p><Link to="/login"  className="quick-link">Login</Link></p>
+                    <p><Link to="lifestyle"  className="quick-link">Lifestyle</Link></p>
 
-    <>
+                </div>
 
-<footer>
+              
 
-<div class="footer-main">
-   <div class="footer-about">
-       <h3>About Us</h3>
-       <p>Company information here...</p>
-       <p>About</p>
-   </div>
-   <div class="footer-services">
-       <h3>Quick Link</h3>
-       <p><Link to="/" className="quick-link">Home</Link></p>
-      
-       <p><Link to="/smartphone" className="quick-link">Smartphone</Link></p>
-       <p><Link to="/tv" className="quick-link">Tv</Link></p>
-       <p><Link to="/lifestyle" className="quick-link">Lifestyle</Link></p>
-       <p><Link to="/laptop/showdetails/:id" className="quick-link">ShowDetails</Link></p>
-       
-   </div>
-   <div class="footer-contact">
-       <h3>Contact Us</h3>
-     <p><Link to="/contact" className="quick-link">Contact</Link></p>
-    
-   </div>
-   <div class="footer-follow">
-       <h3>Follow Us</h3>
-       <p>Social media links here...</p>
-   </div>
-</div>
+                <div>
+                    <h3>Social Media</h3>
+                    
+                    <div className="footer-icon-container">
+                        <a href="https://github.com/kunaldec022002/Gym_Website"><img src={GitHub} className="footer-icons"/></a>
+                        <a href="#"><img src={Gmail} className="footer-icons"/></a>
+                       
+                    </div>
 
-</footer>
+                    <div>
+                      <a href="#"><img src={Google} className="footer-icons"/></a>
+                      <a href="#"><img src={Insta} className="footer-icons"/></a>
+                    </div>
+                </div>
 
-
-    
-    </>
-  )
-  
+            </div>
+        </div>
+    )
 }
 
-export default Footer
-          
+export default Footer;

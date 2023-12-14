@@ -1,0 +1,62 @@
+.signup-container
+{
+    background-color: #fff;
+    width: fit-content;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+label
+{
+    
+    font-size: 25px;
+}
+.input-text
+{
+    display: block;
+
+    border-radius: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.signup
+{
+    background-color: orange;
+}
+
+.signup-btn
+{
+    background-color: #000000;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 50px;
+    display: block;
+    border-radius: 10px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.signup-btn:hover
+{
+    background-color: #404040;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.main-class2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.loginimg2
+{
+    border-radius:10% 90% 77% 23% / 49% 48% 52% 51% ;
+    margin:40px;
+    box-shadow: 3px 2px 3px 5px black;
+}
