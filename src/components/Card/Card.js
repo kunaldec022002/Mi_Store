@@ -17,6 +17,18 @@ export default function Card({img, price, name, id, button}){
   )
 }
 
+export function HomeCard({img,title,price,description})
+{
+  return(
+    <div className="Home-card-container">
+      <img src={img} className="Home-tab-img"/>
+      <h1 className="text-center">{title}</h1>
+      <h2 className="text-center">{price}</h2>
+      <p className="text-center">{description}</p>
+    </div>
+  )
+}
+
 
 
 

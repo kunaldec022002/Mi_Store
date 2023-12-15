@@ -72,31 +72,10 @@
 
 
 
-/* social media icon */
-
-#social-media
+.text-center
 {
-  
-    padding: 60px 0px ;
+  margin: 10px;
+  font-family: fantasy;
 }
 
-#social-media p
-{
-    font-size:36px ;
-    margin-bottom: 30px;
 
-}
-
-.social-icons img
-{
-    box-shadow: 3px 3px 5px 2px black;
-    border-radius: 10px;
-    width: 50px;
-    margin: 8px;
-    transition: 0.5s;
-}
-
-.social-icons a:hover img
-{
-    transform: translateY(-10px);
-}

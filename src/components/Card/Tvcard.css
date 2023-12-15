@@ -1,17 +1,15 @@
 .tv-images{
+  display: block;
+  margin: 10px auto;
     height: 320px;
-    width: 90%;
-    margin: 5px;
-    padding: 5px;
-    cursor: pointer;
+    
 }
 
 .card-container{
     display: inline-block;
     text-align: center;
     background-color:white;
-   
-    width: 320px;
+    width:fit-content;
     border-radius: 10px;
     box-shadow: 2px 2px 5px 5px rgb(126, 122, 126);
     margin-left: 40px;
