@@ -1,0 +1,9 @@
+.payment-container
+{
+    background-color: #fff;
+    width: fit-content;
+    margin: 40px auto ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 20px 40px;
+    border-radius: 15px;
+}

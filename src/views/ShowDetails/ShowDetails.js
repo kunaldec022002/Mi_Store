@@ -3,13 +3,16 @@ import { useParams } from "react-router-dom";
 import detail from "./../Laptop/Laptop.json";
 import "./ShowDetails.css"
 import showToast from 'crunchy-toast';
+import Navbar from "../../components/Navbar/Navbar";
+
 
 export default function ShowDetails() {
     const { id } = useParams();
     const [selectedDetail, setSelectedDetail] = useState(null);
 
     function popup(){
-        showToast('Buy Now Successfully', 'success', 3000);
+        showToast('You Can Pay Here', 'success', 3000);
+        window.location.href = '/place order';
     }
 
     useEffect(() => {
@@ -23,17 +26,22 @@ export default function ShowDetails() {
         return <div>Details not found!</div>;
     }
     return (
-        <div className="buynowContainerCards">
-            <img src={selectedDetail.img} className="buynow-images"/>
-            <h2>{selectedDetail.title}</h2>
-            <p>{selectedDetail.description}</p>
-            <p className="buynowPrice">Price: {selectedDetail.price}</p>
-            <input type="number" className="input-number" placeholder="1"/>
-            <button className="btn41-43 btn-42" onClick={popup}>
-                Buy Now
-            </button>
+            <div>
+                <Navbar/>
+                <div>
+                    <div className="buynowContainerCards">
+                        <img src={selectedDetail.img} className="buynow-images"/>
+                        <h2>{selectedDetail.title}</h2>
+                        <p>{selectedDetail.description}</p>
+                        <p className="buynowPrice">Price: {selectedDetail.price}</p>
+                        <input type="number" className="input-number" placeholder="1"/>
+                        <button className="btn41-43 btn-42" onClick={popup}>
+                            Buy Now
+                        </button>
+                    </div>
 
-        
-        </div>
+                    
+                </div>    
+            </div>    
     );
 }

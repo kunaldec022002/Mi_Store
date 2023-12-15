@@ -13,6 +13,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import ShowDetails from './views/ShowDetails/ShowDetails'
 import Login from './views/Login/Login';
+import PaymentForm from './components/Card/PaymentForm/PaymentForm';
 
 
 const router = createBrowserRouter([
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
         path: "/laptop/showdetails/:id",
         element: <ShowDetails />,
       },
+      {
+        path:"/place order",
+        element:<PaymentForm/>,
+      }
   ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
