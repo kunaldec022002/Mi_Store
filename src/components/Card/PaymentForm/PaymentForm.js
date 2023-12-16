@@ -8,13 +8,18 @@ const PaymentForm = () => {
   const [cardNumber, setCardNumber] = useState('');
   const [expiryDate, setExpiryDate] = useState('');
   const [cvv, setCvv] = useState('');
+  const [ammount, setAmmount] = useState ('');
+  const [product, setProduct] = useState('');
 
   const handlePayment = () => {
     // Save payment details to local storage
-    localStorage.setItem('paymentDetails', JSON.stringify({ cardNumber, expiryDate, cvv }));
-    if (cardNumber===cardNumber& expiryDate===expiryDate&cvv===cvv)
+    localStorage.setItem('paymentDetails', JSON.stringify({ cardNumber, expiryDate, cvv,ammount,product }));
+    if (!PaymentForm)
     {
         showToast('Payment Successfull', 'success', 3000);
+    }
+    else{
+      showToast('Fill information First', 'warning',3000);
     }
     
   };
@@ -32,6 +37,22 @@ const PaymentForm = () => {
                 className='input-text' />
                 </label>
                 <br />
+
+                <label>
+                Product Name:
+                <input type="text" value={product}
+                onChange={(e) => setProduct(e.target.value)}
+                className='input-text' />
+                </label>
+                <br/>
+                <label>
+                Ammount:
+                <input type="text" value={ammount}
+                onChange={(e) => setAmmount(e.target.value)}
+                className='input-text' />
+                </label>
+
+                <br/>
                 <label>
                 Expiry Date:
                 <input type="text" value={expiryDate}

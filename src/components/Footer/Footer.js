@@ -36,7 +36,7 @@ function Footer(){
                     <h3>Social Media</h3>
                     
                     <div className="footer-icon-container">
-                        <a href="https://github.com/kunaldec022002/Gym_Website"><img src={GitHub} className="footer-icons"/></a>
+                        <a href=""><img src={GitHub} className="footer-icons"/></a>
                         <a href="#"><img src={Gmail} className="footer-icons"/></a>
                        
                     </div>

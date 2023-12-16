@@ -40,7 +40,7 @@ export  function Lifestylecard({img,title,price,description,btn,offer}) {
       <h2 className="lifestyle-card-title">{title}</h2>
       <p className="lifestyle-card-title " >{price}</p>
       <p className="lifestyle-card-dec">{description}</p>
-       <button className="lifestyle-card-btnn">{btn}</button>
+      <Link to="/place order"><button className="lifestyle-card-btnn">{btn}</button></Link>
        <p className="lifestyle-card-offer">{offer}</p>
       
     </div>
