@@ -10,8 +10,7 @@ export default function Card({img, price, name, id, button}){
       <img src={img} className="tablet-images"/>
       <h1 className="description">{name}</h1>
       <h2 className="description-1"> Just Rs. {price}/-</h2>
-      <Link to={`/laptop/showdetails/${id}`}><button className="btn41-43 btn-42 btn-top">Buy Now</button>
-      </Link>
+      <Link to={`/laptop/showdetails/${id}`}><button className="btn41-43 btn-42 btn-top">Buy Now</button></Link>
 
     </div>
   )
@@ -40,7 +39,7 @@ export  function Lifestylecard({img,title,price,description,btn,offer}) {
       <h2 className="lifestyle-card-title">{title}</h2>
       <p className="lifestyle-card-title " >{price}</p>
       <p className="lifestyle-card-dec">{description}</p>
-      <Link to="/place order"><button className="lifestyle-card-btnn">{btn}</button></Link>
+      <Link to="/place order"><button className="btn41-43 btn-42 ">{btn}</button></Link>
        <p className="lifestyle-card-offer">{offer}</p>
       
     </div>
@@ -56,7 +55,8 @@ export  function Lifestylecardaudio({img,title,price}) {
       <img className="lifestyle-image-card-audio" src={img}/>
       <h2 className="lifestyle-audio-title">{title}</h2>
       <p className="lifestyle-audio-price">₹ {price}</p>
-      <button className="lifestyle-audio-btnn">Buy Now</button>
+      <Link to="/place order"><button className="btn41-43 btn-42">Buy Now</button></Link>
+
     </div>
   )
 }

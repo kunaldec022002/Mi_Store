@@ -24,9 +24,7 @@ function Footer(){
                     <p><Link to="/contact"  className="quick-link">Contact</Link></p>
                     <p><Link to="/laptop"  className="quick-link">Laptop</Link></p>
                     <p><Link to="/smartphone"  className="quick-link">Smartphone</Link></p>
-                    <p><Link to="/signup"  className="quick-link">Signup</Link></p>
-                    <p><Link to="/login"  className="quick-link">Login</Link></p>
-                    <p><Link to="lifestyle"  className="quick-link">Lifestyle</Link></p>
+                    <p><Link to="/lifestyle"  className="quick-link">Lifestyle</Link></p>
 
                 </div>
 

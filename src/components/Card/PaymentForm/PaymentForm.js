@@ -14,13 +14,11 @@ const PaymentForm = () => {
   const handlePayment = () => {
     // Save payment details to local storage
     localStorage.setItem('paymentDetails', JSON.stringify({ cardNumber, expiryDate, cvv,ammount,product }));
-    if (!PaymentForm)
+    if (PaymentForm)
     {
         showToast('Payment Successfull', 'success', 3000);
     }
-    else{
-      showToast('Fill information First', 'warning',3000);
-    }
+   
     
   };
 

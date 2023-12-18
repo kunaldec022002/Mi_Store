@@ -4,11 +4,13 @@ body{
     padding: 0;
 }
 .tablet-images{
+    display: block;
+    margin: 20px auto;
     height: 260px;
     width: 180px;
     margin: 5px;
     cursor: pointer;
-    margin-top: 30px;
+    
 }
 .title{
     font-size: 30px;
@@ -19,7 +21,7 @@ body{
     text-align: center;
     background-color: aliceblue;
     height: fit-content;
-    width: 300px;
+    width:fit-content;
     box-shadow: 2px 2px 3px 3px rgb(232, 226, 232);
     margin: 0px;
     margin-left: 5px;
@@ -57,15 +59,7 @@ body{
     font-size: 16px;
     text-align: center;
 }
-.lifestyle-card-btnn{
-    padding: 5px 18px;
-    font-size: 18px;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    margin-left: 150px;
-}
+
 .lifestyle-card-offer{
     position: absolute;
     top: 12px;
@@ -104,27 +98,21 @@ body{
     margin-left: 95px;
 }
 .btn41-43 {
-    padding: 5px 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
+    padding: 10px 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     background: transparent;
     outline: none !important;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
-    display:block;
-    width: 109px;
-    height: 35px;
-    text-decoration: none;
-    border-radius: 10px;
-    margin: 0px auto;
-    background: #000;
+    display: inline-block;
   }
   
   .btn-42 {
-    border: 2px solid rgb(10, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     z-index: 1;
-    color:#fff;
+    color: white;
     text-decoration: none;
   }
   
@@ -136,25 +124,21 @@ body{
     bottom: 0;
     left: 0;
     z-index: -1;
-    background-color: hwb(150 84% 9%);
+    background: rgb(255, 255, 255);
     transition: all 0.3s ease;
-    text-decoration: none;
   }
   
   .btn-42:hover {
     color: rgb(0, 0, 0);
-    text-decoration: none;
   }
   
   .btn-42:hover:after {
     top: 0;
     height: 100%;
-    text-decoration: none;
   }
   
   .btn-42:active {
     top: 2px;
-    text-decoration: none;
   }
 .Small-Button{
     top: 12px;
@@ -166,9 +150,7 @@ body{
     border-radius: 4px;
     margin-top: 5px;
 }
-.btn-top{
-    margin-top: 10px;
-}
+
 
 /* home_card */
 

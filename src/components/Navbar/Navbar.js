@@ -13,7 +13,7 @@ export default function Navbar()
                     <nav class="navbar navbar-expand-lg" id="nav-container">
             <div class="container-fluid">
               <img src={NavImg} className="brand-img"/>
-              <Link to="/fitclub" class="navbar-brand">XIAOMI</Link>
+              <Link to="/" class="navbar-brand">XIAOMI</Link>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -35,9 +35,7 @@ export default function Navbar()
                   <li class="nav-item">
                     <Link to="/tv" class="nav-link">TV</Link>
                   </li>
-                  <li class="nav-item">
-                    <Link to="/contact" class="nav-link">Contact</Link>
-                  </li>
+                
 
                 </ul>
                 <form class="d-flex" role="search">

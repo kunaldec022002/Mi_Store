@@ -3,6 +3,12 @@
     color: white;
     
 }
+.container
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .main-title{
     font-size: 32px;
     margin-top: 10px;
