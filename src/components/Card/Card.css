@@ -8,23 +8,13 @@ body{
     margin: 20px auto;
     height: 260px;
     width: 180px;
-    margin: 5px;
+    
     cursor: pointer;
     
 }
 .title{
     font-size: 30px;
     color: antiquewhite;
-}
-.cards-container{
-    padding: 10px;
-    text-align: center;
-    background-color: aliceblue;
-    height: fit-content;
-    width:fit-content;
-    box-shadow: 2px 2px 3px 3px rgb(232, 226, 232);
-    margin: 0px;
-    margin-left: 5px;
 }
 
 .description{
@@ -106,7 +96,8 @@ body{
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
-    display: inline-block;
+    display: block;
+    margin: 10px auto;
   }
   
   .btn-42 {

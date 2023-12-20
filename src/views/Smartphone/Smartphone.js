@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Smartphone.css"
 import Phone from "./../../components/Card/Phone"
-import Img1 from "./img/poster1.jpg"
+import Img1 from "./img/poster1.jpg";
 import Img2 from "./img/poster2.jpg"
 import Img3 from "./img/poster11.jpg"
 import ImgTablet from "./img/redmi1.jpg"

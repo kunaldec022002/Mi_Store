@@ -12,18 +12,13 @@
 .cards-container{
     text-align: center;
     background-color: aliceblue;
-    height: 465px;
-    width: 250px;
+    height: 480px;
+    width: fit-content;
     border-radius: 5px;
     box-shadow: 2px 2px 5px 5px rgb(227, 224, 224);
     margin: 10px;
 }
-.cards-container:hover{
-    cursor: pointer;
-    transition: 0.3s;
-    border-radius: 10px;
-    transform: translateY(20px);
-}
+
 .description{
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;

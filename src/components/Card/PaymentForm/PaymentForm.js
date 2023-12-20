@@ -14,7 +14,7 @@ const PaymentForm = () => {
   const handlePayment = () => {
     // Save payment details to local storage
     localStorage.setItem('paymentDetails', JSON.stringify({ cardNumber, expiryDate, cvv,ammount,product }));
-    if (PaymentForm)
+    if (handlePayment)
     {
         showToast('Payment Successfull', 'success', 3000);
     }
