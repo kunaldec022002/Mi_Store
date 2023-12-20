@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import showToast from 'crunchy-toast';
 import './Login.css';
 import LogImg from './img/web-student-login-img.png';
 import Navbar from "../../components/Navbar/Navbar";
@@ -23,7 +24,7 @@ function Login( {img}){
 
      const handleLogin = ()=> {
         if (!formData.username || !formData.password) {
-            setError('All fiels are required');
+            showToast('All fiels are required','warning',3000);
             return;
         }
 
@@ -37,7 +38,7 @@ function Login( {img}){
         {
             localStorage.setItem('loggedInUser', JSON.stringify(user));
             setError(' ');
-            alert('Login Successful');
+            showToast('Login Successful','success', 3000);
             window.location.href='/';
         }
 

@@ -1,5 +1,6 @@
 // src/SignupForm.js
 import React, { useState } from 'react';
+import showToast from 'crunchy-toast';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import SignupImg from './img/signup-img.jpg';
@@ -29,7 +30,7 @@ function  Signup  () {
     {
       alert ("Fill information First");
     }
-    alert('Signup successful!');
+    showToast('Signup Sucessfully', 'success', 3000);
     window.location.href="/login"
 
     
