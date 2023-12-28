@@ -4,6 +4,7 @@ import './PaymentForm.css';
 import React, { useState } from 'react';
 import showToast from 'crunchy-toast';
 
+
 const PaymentForm = () => {
   const [cardNumber, setCardNumber] = useState('');
   const [expiryDate, setExpiryDate] = useState('');
@@ -18,6 +19,8 @@ const PaymentForm = () => {
     {
         showToast('Payment Successfull', 'success', 3000);
     }
+
+      window.location.href="/"
    
     
   };
@@ -32,7 +35,7 @@ const PaymentForm = () => {
                 Card Number:
                 <input type="text" value={cardNumber}
                 onChange={(e) => setCardNumber(e.target.value)}
-                className='input-text' />
+                className='input-text' placeholder='Ex. 123456789'/>
                 </label>
                 <br />
 
@@ -40,14 +43,14 @@ const PaymentForm = () => {
                 Product Name:
                 <input type="text" value={product}
                 onChange={(e) => setProduct(e.target.value)}
-                className='input-text' />
+                className='input-text'placeholder='product name' />
                 </label>
                 <br/>
                 <label>
                 Ammount:
                 <input type="text" value={ammount}
                 onChange={(e) => setAmmount(e.target.value)}
-                className='input-text' />
+                className='input-text' placeholder='total amount' />
                 </label>
 
                 <br/>
@@ -55,14 +58,14 @@ const PaymentForm = () => {
                 Expiry Date:
                 <input type="text" value={expiryDate}
                 onChange={(e) => setExpiryDate(e.target.value)}
-                className='input-text' />
+                className='input-text' placeholder='Ex. 10/29' />
                 </label>
                 <br />
                 <label>
                 CVV:
                 <input type="text" value={cvv}
                  onChange={(e) => setCvv(e.target.value)} 
-                 className='input-text'/>
+                 className='input-text' placeholder='Ex. 458'/>
                 </label>
                 <br />
                 <button type="button" onClick={handlePayment} className='signup-btn'>
