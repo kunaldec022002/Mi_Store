@@ -7,7 +7,7 @@ import Contact from "./views/Contact/Contact"
 import Laptop from "./views/Laptop/Laptop"
 import Signup from "./views/Signup/Signup"
 import Smartphone from "./views/Smartphone/Smartphone"
-import Tv from "./views/Tv/Tv"
+
 import Lifestyle from './views/Lifestyle/Lifestyle';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -34,10 +34,7 @@ const router = createBrowserRouter([
         path: "/smartphone",
         element: <Smartphone />,
       },
-      {
-        path: "/tv",
-        element: <Tv />,
-      },
+      
 
       {
         path:"/login" ,

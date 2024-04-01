@@ -32,9 +32,7 @@ export default function Navbar()
                   <li class="nav-item">
                     <Link to="/smartphone" class="nav-link">Smartphone</Link>
                   </li>
-                  <li class="nav-item">
-                    <Link to="/tv" class="nav-link">TV</Link>
-                  </li>
+                 
                 
 
                 </ul>
