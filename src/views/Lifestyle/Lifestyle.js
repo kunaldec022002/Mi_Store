@@ -62,9 +62,9 @@ function Lifestyle() {
             <div className='card-container-lifestyle'>
             {
                 Lifedata.map((card , index )=>{
-                    const { img,title,price,description,btn,offer } = card;
+                    const { img,title,price,description,btn,offer,id } = card;
                     return(
-                        <Lifestylecard img={img} title={title} price={price} description={description} btn={btn} offer={offer}/>
+                        <Lifestylecard img={img} id={id} title={title} price={price} description={description} btn={btn} offer={offer}/>
                     )
                 })
             }

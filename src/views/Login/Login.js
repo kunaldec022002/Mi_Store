@@ -39,12 +39,13 @@ function Login( {img}){
             localStorage.setItem('loggedInUser', JSON.stringify(user));
             setError(' ');
             showToast('Login Successful','success', 3000);
-            window.location.href='/';
+           
         }
 
         else 
         {
             setError('Invalid username or password');
+            window.location.href='/';
         }
      }
 
