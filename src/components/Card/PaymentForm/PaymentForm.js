@@ -16,7 +16,7 @@ const PaymentForm = () => {
     localStorage.setItem('paymentDetails', JSON.stringify({ cardNumber, expiryDate, cvv,ammount, }));
     if (handlePayment)
     {
-        showToast('Payment Successfull', 'success', 1000);
+        showToast('Payment Successfull', 'success', 3000);
     }
 
     else
@@ -39,7 +39,7 @@ const PaymentForm = () => {
                 Card Number:
                 <input type="text" value={cardNumber}
                 onChange={(e) => setCardNumber(e.target.value)}
-                className='input-text' placeholder='Ex. 123456789'/>
+                className='input-text' placeholder='Ex. 123456789' required/>
                 </label>
                 <br/>
 
@@ -47,7 +47,7 @@ const PaymentForm = () => {
                 Ammount:
                 <input type="text" value={ammount}
                 onChange={(e) => setAmmount(e.target.value)}
-                className='input-text' placeholder='total amount' />
+                className='input-text' placeholder='total amount' required />
                 </label>
 
                 <br/>
@@ -55,17 +55,17 @@ const PaymentForm = () => {
                 Expiry Date:
                 <input type="text" value={expiryDate}
                 onChange={(e) => setExpiryDate(e.target.value)}
-                className='input-text' placeholder='Ex. 10/29' />
+                className='input-text' placeholder='Ex. 10/29'required/>
                 </label>
                 <br />
                 <label>
                 CVV:
                 <input type="text" value={cvv}
                  onChange={(e) => setCvv(e.target.value)} 
-                 className='input-text' placeholder='Ex. 458'/>
+                 className='input-text' placeholder='Ex. 458' required/>
                 </label>
                 <br />
-                <button type="button" onClick={handlePayment} className='signup-btn'>
+                <button type="button" onClick={handlePayment}required className='signup-btn'>
                 Submit Payment
                 </button>
             </form>
